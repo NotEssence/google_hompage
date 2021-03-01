@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header * {
+    margin: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#google-apps, #google-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#google-apps:hover, #google-account:hover {
+    background-color: rgb(230, 228, 228);
+}
+
+#google-apps-icon {
+    width: 99%;
+    height: 99%;
+    flex-shrink: 0;
+
+    background-size: 100% 100%;
+    background-image: url(./google_apps.png);
+}
+
+#google-account-icon {
+    width: 99%;
+    height: 99%;
+    flex-shrink: 0;
+
+    background-size: 100% 100%;
+    background-image: url(./pfp.png);
+}
+
+#google-logo {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#searchbar-input {
+    display: block;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+
+    height: 2px;
+    border: 2px solid rgb(230, 228, 228);
+    border-radius: 50px;
+}
+
+#searchbar-input:focus {
+    outline: none;
+    border: 2px solid rgb(219, 219, 219);
+}
+
+#searchbar-input:hover, #searchbar-input:focus {
+    box-shadow: -1px 1px 5px 0px rgb(219, 219, 219);
+}
+
+#buttons {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#buttons * {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(248,249,250,255);
+    color: rgb(125, 142, 143);
+}
+
+#buttons *:focus {
+    padding: 10px;
+    border: none;
+
+    outline: none;
+}
+
+#buttons *:hover {
+    border: 1px solid rgb(230, 228, 228);
+    box-shadow: -1px 1px 2px 0px rgb(219, 219, 219);
+}
+
+footer {
+    background-color: rgb(242,242,242);
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    padding: 20px;
+}
+
+#link-group-one, #link-group-two {
+    display: inline;
+}
+
+#link-group-two {
+    float: right;
+    margin-right: 25px;
+}
+
+footer #link-group-one * {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer #link-group-two * {
+    display: inline;
+    margin-right: 15px;
+}
+
